@@ -4,3 +4,7 @@ We find 2 files with the same content : `cdiiddwpgswtgt`.
 This is the hash password to connect to flag00. It is a simple Caesar cipher.
 One of the 26 decode looks like a simple sentence : `nottoohardhere`.
 So we try to connect with this password, and it works !
+```
+su level01
+x24ti5gi3x0ol2eh4esiuxias
+```

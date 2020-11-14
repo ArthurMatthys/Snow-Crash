@@ -7,5 +7,10 @@ Our echo is quite simple :
 #!/bin/bash
 getflag
 """
+Don't forget to allow this new `echo` file to be executed. (chmod +x /tmp/echo)
 And to change the path variable, we can do like so : PATH=/tmp:$PATH.
 Now, if we execute the program, we get the flag.
+```
+su level04
+qi0maab88jeaj46qoumi7maus
+```
