@@ -1,6 +1,6 @@
 With a `ls` on level06, we can see that we have two files.
 One is a binary file and one is PhP file.
-To begin, we start by use Ghidra on the binary file, and we understand that it is executing the PhP script.
+To begin, we start by using Ghidra on the binary file, and we understand that it is executing the PhP script.
 Looking into this file, we witness the use of a deprecated method while using regex : `/e`.
 This is deprecated because it can be use to execute command shell while executing the script, if we give the correct argument.
 First thing, we tried to put in a file in the tmp directory :
