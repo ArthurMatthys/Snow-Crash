@@ -9,7 +9,7 @@ Our first idea is to set `LOGNAME` to "`whoami`" :
 """
 LOGNAME=`whoami`
 """
-Obviously, this doens't work, as shown by using this simple command :
+Obviously, this doesn't work, as shown by using this simple command :
 `env | grep LOGNAME`.
 We can see that we just put the result of `whoami` inside LOGNAME.
 Let's try to escape the backquotes :
