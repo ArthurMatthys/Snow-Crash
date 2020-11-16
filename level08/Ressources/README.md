@@ -1,4 +1,4 @@
-Same a usual, we use ghidra on the binary file.
+Same as usual, we use ghidra on the binary file.
 The program will read and write the content of `argv[1]`.
 But, `argv[1]` cannot contain `"token"` otherwise it won't read the file.
 First idea : Create a symbolic link to `token` so we won't have to actualy put `token` in `argv[1]` :
