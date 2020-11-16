@@ -1,6 +1,6 @@
 We tried to find anything related to `level14` or `flag14` but nothing came.
 So we tried to `gdb` our way inside `getflag`.
-We see that there is two things we have to change.
+We see that there are two securities that we have to overcome.
 First, we have to bypass the check of `ptrace` with our first breakpoint :
 `b *0x0804898e`
 We will also have to change the value of `getuid` with the second breakpoint :
