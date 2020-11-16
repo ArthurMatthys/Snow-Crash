@@ -1,4 +1,4 @@
-There is 2 files, one binary and one named `token`.
+There are 2 files, one binary and one named `token`.
 We can see what's inside `token` : 
 """
 f4kmm6p|=pnDBDu{
