@@ -1,5 +1,5 @@
-With ghidra, we witness a use to getuid().
-The program check if the real user has an id of 4242 to give the flag for this level.
+With ghidra, we witness a use of getuid().
+The program checks if the real user has an id of 4242. If that's the case, it gives the flag of this level.
 Our idea was to code our own `getuid()` and make the program call our library instead of the standard one.
 So, in the `tmp` directory, we create a file named `getuid.c` where we write :
 ```
